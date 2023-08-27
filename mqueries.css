@@ -1,0 +1,35 @@
+@media screen and (min-width: 760px) {
+    section{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 300px;
+        width: 650px;
+        background-image: url(logo-github.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.61); 
+    
+    }
+    form{
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        border: 2px, solid, black;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.61);
+        height: 300px;
+        width: 450px;  
+    }
+    p{
+        text-align: center;
+        margin: auto;
+        margin-top: 5px;
+    }
+    p.inf{
+        margin-right: 90px;
+    }   
+}

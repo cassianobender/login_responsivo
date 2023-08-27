@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100vw;
+    width: 100vw;
+    margin: auto;
+    background-image: linear-gradient(to bottom, black,white);
+    background-repeat: no-repeat;
+}
+/*
+main{
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90vw;
+    width: 90vw;
+}*/
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 480px;
+    width: 300px;
+    background-image: url(logo-github.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.61); 
+
+}
+form{
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px, solid, black;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.61);
+    height: 300px;
+    width: 300px;  
+}
+form legend{
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+input{
+    text-align: left;
+    width: 220px;
+    height: 32px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+p{
+    margin: 2px;
+    margin-left: 20px;
+    width: 265px;
+    border-radius: 10px;
+    padding: 2px;
+    padding-right: 0px;
+
+}
+p.inf{
+    background-color: #4d4f4d1f;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+input.button{
+    width: 265px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+input.inline{
+    border-radius: 5px;
+    
+}
+label{
+    display: inline-block;
+    vertical-align: bottom;
+}
+span{
+    vertical-align: bottom;
+    padding-left: 5px;
+    color:green;  
+}
+input#submit{
+    background-color: rgba(0, 128, 0, 0.39);
+}
+input.button:hover{
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.237);
+    border: 2px solid black;
+    transition: box-shadow .5s, border .2s;
+}
